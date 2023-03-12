@@ -7,8 +7,8 @@ Java installation is one of the mandatory things in installing Spark. Try the fo
 ```
 $java -version
 ```
+<img width="554" alt="Screenshot_2023-02-22_at_4 27 57_PM" src="https://user-images.githubusercontent.com/88190547/224557614-9249d278-ee80-4594-ba1a-a5e008ed8939.png">
 
-![Screenshot 2023-02-22 at 4.27.57 PM.png](Spark-Installation%20ab0bf90485384942830037ab3036a619/Screenshot_2023-02-22_at_4.27.57_PM.png)
 
 ## **Step 2: Verifying Scala installation**
 
@@ -20,8 +20,8 @@ $scala -version
 ```
 
 If Scala is already installed on your system, you get to see the following response −
+<img width="550" alt="Screenshot_2023-02-22_at_4 28 31_PM" src="https://user-images.githubusercontent.com/88190547/224557640-01e92f07-8558-40a9-8f05-d72be7f3446e.png">
 
-![Screenshot 2023-02-22 at 4.28.31 PM.png](Spark-Installation%20ab0bf90485384942830037ab3036a619/Screenshot_2023-02-22_at_4.28.31_PM.png)
 
 # If Scala is not Installed
 
@@ -113,8 +113,8 @@ The following commands for moving the Spark software files to respective directo
 # mv spark-3.2.3-bin-hadoop3.2 spark
 # ex
 ```
+<img width="614" alt="Screenshot_2023-02-22_at_4 35 00_PM" src="https://user-images.githubusercontent.com/88190547/224557693-157e8d31-cb27-4be1-8e4a-db83f8a1d890.png">
 
-![Screenshot 2023-02-22 at 4.35.00 PM.png](Spark-Installation%20ab0bf90485384942830037ab3036a619/Screenshot_2023-02-22_at_4.35.00_PM.png)
 
 ### **Setting up the environment for Spark**
 
@@ -124,8 +124,7 @@ Add the following line to ~**/.bashrc** file. It means adding the location, whe
 export PATH=$PATH:/usr/local/spark/bin
 
 ```
-
-![Screenshot 2023-02-22 at 4.36.55 PM.png](Spark-Installation%20ab0bf90485384942830037ab3036a619/Screenshot_2023-02-22_at_4.36.55_PM.png)
+<img width="591" alt="Screenshot_2023-02-22_at_4 36 55_PM" src="https://user-images.githubusercontent.com/88190547/224557713-69ef4980-514e-4e1e-931a-63afb7a5fa66.png">
 
 Use the following command for sourcing the ~/.bashrc file.
 
@@ -145,4 +144,4 @@ $spark-shell
 
 If spark is installed successfully then you will find the following output.
 
-![Screenshot 2023-02-22 at 4.42.02 PM.png](Spark-Installation%20ab0bf90485384942830037ab3036a619/Screenshot_2023-02-22_at_4.42.02_PM.png)
+<img width="1343" alt="Screenshot_2023-02-22_at_4 42 02_PM" src="https://user-images.githubusercontent.com/88190547/224557746-1fdec0b2-6f39-46a6-9c4d-ab8bb89feaeb.png">
